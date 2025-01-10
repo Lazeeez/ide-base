@@ -15,7 +15,11 @@ import Head from 'next/head';
 
 export default function DashboardPage(): JSX.Element {
   const { userData } = useNullableUserContext();
-
+  //fetch env variable NEW_FIREBASE_CLIENT_EMAIL and print it
+  useEffect(() => {
+    console.log(process.env.NEW_FIREBASE_CLIENT_EMAIL);
+    console.log('Hello');
+  }, []);
   return (
     <div className="min-h-full flex flex-col">
       <Head>
@@ -64,7 +68,7 @@ export default function DashboardPage(): JSX.Element {
               className="ml-[2px]"
             />
             <p className="mt-2 text-gray-400">
-              Infrastructure monitoring powered by Datadog. View our{' '}
+              Infrastructure monitoring powered by Datadog 2. View our{' '}
               <a
                 href="https://p.datadoghq.com/sb/fbf273aa-1551-11ef-87da-da7ad0900002-1c22ffc7d27083c1529726831826065e"
                 rel="noreferrer"

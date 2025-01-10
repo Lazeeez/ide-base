@@ -15,7 +15,7 @@ import { getApp, getApps, initializeApp, cert } from 'firebase-admin/app';
 //   // });
 //   // note: export FIREBASE_AUTH_EMULATOR_HOST="localhost:9099"
 // and export FIREBASE_DATABASE_EMULATOR_HOST="localhost:9000"
-//   firebaseAdmin.initializeApp({ projectId: 'cp-ide' });
+//   firebaseAdmin.initializeApp({ projectId: 'ide-base' });
 // }
 
 if (getApps().length === 0) {
@@ -26,12 +26,13 @@ if (getApps().length === 0) {
         privateKey: process.env.NEW_FIREBASE_PRIVATE_KEY,
         clientEmail: process.env.NEW_FIREBASE_CLIENT_EMAIL,
       }),
-      databaseURL: 'https://cp-ide-2-default-rtdb.firebaseio.com',
+      databaseURL:
+        'https://ide-base-default-rtdb.asia-southeast1.firebasedatabase.app',
     });
   } else {
     initializeApp({
-      projectId: 'cp-ide-2',
-      databaseURL: 'http://127.0.0.1:9000?ns=cp-ide-2-default-rtdb',
+      projectId: 'ide-base',
+      databaseURL: 'http://127.0.0.1:9000?ns=ide-base-default-rtdb',
     });
   }
 }
