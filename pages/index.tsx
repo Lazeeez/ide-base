@@ -19,6 +19,10 @@ export default function DashboardPage(): JSX.Element {
   useEffect(() => {
     console.log(process.env.NEW_FIREBASE_CLIENT_EMAIL);
     console.log('Hello');
+    console.log(process.env.NEW_FIREBASE_PRIVATE_KEY);
+    console.log('Hello');
+    console.log(process.env.NEW_NEXT_PUBLIC_FIREBASE_PROJECT_ID);
+    console.log('Hello');
   }, []);
   return (
     <div className="min-h-full flex flex-col">
