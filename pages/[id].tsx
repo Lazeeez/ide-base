@@ -270,7 +270,7 @@ export default function FilePage() {
   const loadingUI = (
     <MessagePage message="Loading..." showHomeButton={false} noIndex />
   );
-  const oldLink = `https://legacy.ide.usaco.guide/${queryId}`;
+  const oldLink = `https://github.com/Lazeeez/ide-base/issues`;
   const fileNotFoundUI = (
     <div className="p-8 sm:p-16">
       <div className=" max-w-prose mx-auto">
@@ -278,9 +278,15 @@ export default function FilePage() {
           File Not Found
         </div>
         <p className="sm:text-lg mt-8 text-gray-200 max-w-prose mx-auto text-left">
-          Note: The IDE was recently updated to use a new backend system. If
-          you&apos;re trying to access an old file you created with the old
-          version of the IDE, try this link:{' '}
+          Note: The has been a problem accessing the file you requested. Feel
+          free to reach out to us if you think this is a fault on our side. mail
+          us on or try this link to raise the issue on GitHub:{' '}
+          <a
+            href={'mailto:lajatm9@gmail.com'}
+            className="font-medium text-white underline"
+          >
+            {'mailto:lajatm9@gmail.com'}
+          </a>
           <a href={oldLink} className="font-medium text-white underline">
             {oldLink}
           </a>

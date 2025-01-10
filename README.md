@@ -1,8 +1,8 @@
 # Realtime Collaborative IDE
 
-A realtime collaborative IDE with code execution, intellisense, and built-in USACO submissions. Designed primarily for Competitive Programming and USACO, with mobile support for coding on the go.
+A realtime collaborative IDE with code execution, intellisense, and built-in submissions. Designed primarily for Competitive Programming and collaborative coding, with mobile support for coding on the go.
 
-This IDE is built and maintained by [Nathan Wang](https://github.com/thecodingwizard) and [Benjamin Qi](https://github.com/bqi343/), and is part of the [Competitive Programming Initiative](https://joincpi.org/).
+This IDE is built and maintained by [Lajat Manekar](https://github.com/Lazeeez) and [Omkar Jajulwar](https://github.com/AnAi05/) and is part of the [IDE Initiative](https://ideinnit.tech/).
 
 ## Running Locally
 
@@ -34,23 +34,17 @@ You can update the Firebase configuration (if you want to use a custom firebase 
 
 ## Tech Stack
 
-- Code execution through a custom [Serverless Online Judge](https://github.com/cpinitiative/online-judge)
 - Realtime collaboration with [YJS](https://github.com/yjs/yjs)
 - Monaco Editor (desktop)
 - Codemirror 6 Editor (mobile)
-- Code intellisense with [LSP servers running on Modal](https://github.com/cpinitiative/ide-lsp-modal)
 - Next.js
 - Tailwind CSS
 - Firebase Realtime Database
 - Playwright for end-to-end testing
 
-Infrastructure monitoring is generously provided by Datadog's OSS program.
-
-<img src="./public/dd_logo_v_rgb.svg" width="200" />
-
 ## Contact Info
 
-If you have any questions, please open an issue or reach out to us at usacoguide@gmail.com.
+If you have any questions, please open an issue or reach out to us at lajatm9@gmail.com.
 
 ## Misc Notes
 

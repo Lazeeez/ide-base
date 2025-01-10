@@ -28,7 +28,7 @@ jobs:
       - name: Start YJS server
         run: |
           cd ..
-          git clone https://github.com/cpinitiative/ide-yjs.git
+          git clone https://github.com/lazeeez/ide-yjs.git
           cd ide-yjs
           npm install
           npm run dev &
