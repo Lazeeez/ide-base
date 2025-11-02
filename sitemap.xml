@@ -5,24 +5,10 @@
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
-    <loc>https://ideinnit.tech/</loc>
-    <lastmod>2025-11-02T15:53:34+00:00</lastmod>
+    <loc>https://ideinnit-ide.vercel.app/</loc>
+    <lastmod>2025-11-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://ideinnit.tech/contribute</loc>
-    <lastmod>2025-11-02T15:53:34+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://ideinnit.tech/contests</loc>
-    <lastmod>2025-11-02T15:53:34+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
   </url>
 
 </urlset>
